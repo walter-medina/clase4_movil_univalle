@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+
+    <ImageView
+        android:id="@+id/vSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_user"
+        android:translationX="70dp"
+        android:translationY="1dp"
+        android:translationZ="1dp" />
+
+    <View
+        android:id="@+id/vSuperior"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/verde"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="EditText:"
+        android:layout_below="@+id/vSuperior"
+        android:layout_toLeftOf="@+id/etNombre"/>
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Escribe tu nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/vSuperior" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="guardar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Inferior:"
+        android:textSize="16sp"
+        android:layout_above="@+id/vInferior"/>
+
+    <View
+        android:id="@+id/vInferior"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/gris"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

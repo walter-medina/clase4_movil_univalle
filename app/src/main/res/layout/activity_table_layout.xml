@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="3"
+    android:padding="16dp"
+    tools:context=".TableLayout">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris">
+
+        <TextView
+            android:layout_column="0"
+            android:padding="4dp"
+            android:text="Cantidad"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Articulo"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="Precio unitario"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="Total"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_column="0"
+            android:padding="4dp"
+            android:text="2"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Mouse"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="35000"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="70000"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_column="0"
+            android:padding="4dp"
+            android:text="1"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Teclado"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="70000"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="70000"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <View
+        android:layout_height="2dp"
+        android:background="@color/gris"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="Subtotal"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="140000"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="IVA (19 %)"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="26600"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_column="2"
+            android:padding="4dp"
+            android:text="Total:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@color/azul"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_column="3"
+            android:padding="4dp"
+            android:text="166600"
+            android:background="@color/azul"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"/>
+
+    </TableRow>
+
+
+</TableLayout>
