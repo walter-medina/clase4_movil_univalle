@@ -60,7 +60,6 @@
             <View
                 android:layout_width="200dp"
                 android:layout_height="100dp"
-
                 android:background="@color/verde" />
 
         </LinearLayout>
